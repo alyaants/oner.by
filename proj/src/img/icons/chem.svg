@@ -1,0 +1,36 @@
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Car, Service, Parts/gear-box-switch">
+<g id="Group">
+<g id="Path">
+<path d="M16 36H26" stroke="#2E1066" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 36H26" stroke="#410F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 36H26" stroke="#453888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 36H26" stroke="#5946D7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Path_2">
+<path d="M16 30H20" stroke="#2E1066" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 30H20" stroke="#410F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 30H20" stroke="#453888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 30H20" stroke="#5946D7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Rectangle">
+<path d="M10 14C10 12.8954 10.8954 12 12 12H29.1716C29.702 12 30.2107 12.2107 30.5858 12.5858L39.4142 21.4142C39.7893 21.7893 40 22.298 40 22.8284V39C40 40.6569 38.6569 42 37 42H13C11.3431 42 10 40.6569 10 39V14Z" stroke="#2E1066" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 14C10 12.8954 10.8954 12 12 12H29.1716C29.702 12 30.2107 12.2107 30.5858 12.5858L39.4142 21.4142C39.7893 21.7893 40 22.298 40 22.8284V39C40 40.6569 38.6569 42 37 42H13C11.3431 42 10 40.6569 10 39V14Z" stroke="#410F9E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 14C10 12.8954 10.8954 12 12 12H29.1716C29.702 12 30.2107 12.2107 30.5858 12.5858L39.4142 21.4142C39.7893 21.7893 40 22.298 40 22.8284V39C40 40.6569 38.6569 42 37 42H13C11.3431 42 10 40.6569 10 39V14Z" stroke="#453888" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 14C10 12.8954 10.8954 12 12 12H29.1716C29.702 12 30.2107 12.2107 30.5858 12.5858L39.4142 21.4142C39.7893 21.7893 40 22.298 40 22.8284V39C40 40.6569 38.6569 42 37 42H13C11.3431 42 10 40.6569 10 39V14Z" stroke="#5946D7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g id="Rectangle 16">
+<path d="M25 12V7C25 6.44772 24.5523 6 24 6H15C14.4477 6 14 6.44772 14 7V12" stroke="#2E1066" stroke-width="2"/>
+<path d="M25 12V7C25 6.44772 24.5523 6 24 6H15C14.4477 6 14 6.44772 14 7V12" stroke="#410F9E" stroke-width="2"/>
+<path d="M25 12V7C25 6.44772 24.5523 6 24 6H15C14.4477 6 14 6.44772 14 7V12" stroke="#453888" stroke-width="2"/>
+<path d="M25 12V7C25 6.44772 24.5523 6 24 6H15C14.4477 6 14 6.44772 14 7V12" stroke="#5946D7" stroke-width="2"/>
+</g>
+<g id="Rectangle 17">
+<rect x="27.1211" y="16.8789" width="10.7574" height="5.37868" rx="2.68934" transform="rotate(45 27.1211 16.8789)" stroke="#2E1066" stroke-width="2"/>
+<rect x="27.1211" y="16.8789" width="10.7574" height="5.37868" rx="2.68934" transform="rotate(45 27.1211 16.8789)" stroke="#410F9E" stroke-width="2"/>
+<rect x="27.1211" y="16.8789" width="10.7574" height="5.37868" rx="2.68934" transform="rotate(45 27.1211 16.8789)" stroke="#453888" stroke-width="2"/>
+<rect x="27.1211" y="16.8789" width="10.7574" height="5.37868" rx="2.68934" transform="rotate(45 27.1211 16.8789)" stroke="#5946D7" stroke-width="2"/>
+</g>
+</g>
+</g>
+</svg>

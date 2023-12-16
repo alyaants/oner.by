@@ -1,0 +1,101 @@
+.swiper {
+  .swiper-wrapper {
+    padding: 30px 0;
+    width: 100%;
+    height: 390px;
+
+    .swiper-slide {
+      position: relative;
+      border-radius: 30px;
+      overflow: hidden;
+      .image-slider__slide {
+        overflow: hidden;
+        position: relative;
+
+        .title {
+          position: absolute;
+          top: 110px;
+          left: 70px;
+          z-index: 2;
+          width: 627px;
+          color: #fff;
+          h1 {
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 55px;
+            margin-bottom: 30px;
+
+            span {
+              background-color: #fb5c2a;
+              margin-left: 10px;
+              padding: 3px 20px;
+              border-radius: 10px;
+            }
+            p {
+              width: 350px;
+              color: #fff;
+              font-size: 18px;
+              font-weight: 400;
+              line-height: 26px;
+              top: 160px;
+              left: 60px;
+            }
+          }
+        }
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+          align-content: center;
+        }
+      }
+    }
+  }
+  .swiper-button-prev {
+    color: white;
+    transition: 0.5s;
+    left: 5px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(46, 16, 102, 0.25);
+    width: 40px;
+    height: 40px;
+    &::after {
+      content: "";
+    }
+    &:hover {
+      color: rgb(110, 0, 178);
+    }
+  }
+  .swiper-button-next {
+    color: white;
+    transition: 0.5s;
+    right: 5px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px 0px rgba(46, 16, 102, 0.25);
+    width: 40px;
+    height: 40px;
+    &::after {
+      content: "";
+    }
+    &:hover {
+      color: rgb(110, 0, 178);
+    }
+  }
+
+  .swiper-pagination {
+    position: absolute;
+    bottom: 20%;
+    left: -35.5%;
+    .swiper-pagination-bullet {
+      width: 60px;
+      height: 4px;
+      border-radius: 0;
+      background-color: #fff;
+    }
+  }
+}

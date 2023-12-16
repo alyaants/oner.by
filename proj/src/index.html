@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link rel="shortcut icon" href="./img/icons/parking-car-garage.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./scss/index.scss" />
+    <title>ONER.BY - интернет-магазин автозапчастей</title>
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="container">
+        <div class="header-wrap">
+          <div class="header-up">
+            <div class="logo-wrap">
+              <a href="./index.html">
+                <div class="logo">
+                  <img src="./img/icons/logo.png" alt="#" />
+                </div>
+                <div class="logo-text">ONER.BY</div>
+              </a>
+            </div>
+            <div class="input-wrap">
+              <input type="text" placeholder="Введите номер запчасти или VIN" />
+              <button class="search-wrap">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11ZM11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C13.125 20 15.078 19.2635 16.6177 18.0319L20.2929 21.7071C20.6834 22.0976 21.3166 22.0976 21.7071 21.7071C22.0976 21.3166 22.0976 20.6834 21.7071 20.2929L18.0319 16.6177C19.2635 15.078 20 13.125 20 11C20 6.02944 15.9706 2 11 2Z"
+                    fill="#2E1066"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11ZM11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C13.125 20 15.078 19.2635 16.6177 18.0319L20.2929 21.7071C20.6834 22.0976 21.3166 22.0976 21.7071 21.7071C22.0976 21.3166 22.0976 20.6834 21.7071 20.2929L18.0319 16.6177C19.2635 15.078 20 13.125 20 11C20 6.02944 15.9706 2 11 2Z"
+                    fill="#410F9E"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11ZM11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C13.125 20 15.078 19.2635 16.6177 18.0319L20.2929 21.7071C20.6834 22.0976 21.3166 22.0976 21.7071 21.7071C22.0976 21.3166 22.0976 20.6834 21.7071 20.2929L18.0319 16.6177C19.2635 15.078 20 13.125 20 11C20 6.02944 15.9706 2 11 2Z"
+                    fill="#453888"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M4 11C4 7.13401 7.13401 4 11 4C14.866 4 18 7.13401 18 11C18 14.866 14.866 18 11 18C7.13401 18 4 14.866 4 11ZM11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C13.125 20 15.078 19.2635 16.6177 18.0319L20.2929 21.7071C20.6834 22.0976 21.3166 22.0976 21.7071 21.7071C22.0976 21.3166 22.0976 20.6834 21.7071 20.2929L18.0319 16.6177C19.2635 15.078 20 13.125 20 11C20 6.02944 15.9706 2 11 2Z"
+                    fill="#5946D7"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div class="location-wrap">
+              <img src="./img/icons/Group.svg" alt="#" />
+              <span>Минск</span>
+            </div>
+            <div class="phone-wrap">
+              <img src="./img/icons/Phone, Call.svg" alt="#" />
+              <span>+375 29 207-07-77</span>
+            </div>
+          </div>
+          <div class="header-down">
+            <div class="nav">
+              <ul>
+                <li><a href="./html/oil.html">Автомасла</a></li>
+                <li><a href="./html/battery.html">Аккумуляторы</a></li>
+                <li><a href="./html/wheels.html">Диски</a></li>
+                <li><a href="#">Оригинальные запчасти</a></li>
+                <li><a href="#">Неоригинальные запчасти</a></li>
+                <li><a href="#">Лампочки</a></li>
+              </ul>
+            </div>
+            <button class="cart-header">
+              <img src="./img/icons/Shopping Cart.svg" alt="#" />
+              <span>Корзина</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="promo">
+      <div class="container">
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <div class="title">
+                    <h1>Оригинальные автомасла cо скидкой<span>15%</span></h1>
+                    <p>Акция действует с 1 по 30 декабря 2023</p>
+                  </div>
+                  <img src="./img/promo/promo.jpg" alt="#" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <div class="title">
+                    <h1>Оригинальные запчасти cо скидкой<span>20%</span></h1>
+                    <p>Акция действует с 1 по 30 декабря 2023</p>
+                  </div>
+                  <img src="./img/promo/promo_4.jpg" alt="#" />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <div class="title">
+                    <h1>Оригинальные автомасла cо скидкой<span>15%</span></h1>
+                    <p>Акция действует с 1 по 30 декабря 2023</p>
+                  </div>
+                  <img src="./img/promo/promo.jpg" alt="#" >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+
+          <div class="swiper-button-prev">
+            <img src="./img/icons/Arrow.svg" alt="#" />
+          </div>
+          <div class="swiper-button-next">
+            <img src="./img/icons/Arrow2.svg" alt="#" />
+          </div>
+        </div> 
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="container">
+        <div>
+          <ul class="categories-wrap">
+            <li>
+              <a href="./html/battery.html">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img
+                      src="./img/icons/Battery, Eectricity, Generator.svg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Аккумуляторы</h2>
+                    <p>730 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/Engine.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Неоригинальные запчасти</h2>
+                    <p>763 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/parking-car-garage.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Запчасти ВАЗ, ГАЗ</h2>
+                    <p>968 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./html/oil.html">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/gear-box-switch.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Автомасла</h2>
+                    <p>751 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/Safety belt.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Запчасти для ТО</h2>
+                    <p>456 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/Glass washer.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Автостёкла</h2>
+                    <p>369 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="./html/wheels.html">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/Wheel.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Диски</h2>
+                    <p>620 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/gear-box-switch.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Автохимия</h2>
+                    <p>268 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/front-door-part-sqaure.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Кузовные запчасти</h2>
+                    <p>739 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/Brakes.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Оригинальные запчасти</h2>
+                    <p>756 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/short-light-dashboard.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Автолампы</h2>
+                    <p>356 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <div class="categories__item">
+                  <div class="item__img">
+                    <img src="./img/icons/Wheel.svg" alt="#" />
+                  </div>
+                  <div class="item__title">
+                    <h2 class="categ-name">Шины</h2>
+                    <p>561 товаров</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="oil">
+      <div class="container">
+        <div class="oil-wrap">
+          <div class="oil-head">
+            <h2>Автомасла</h2>
+            <div class="more-oil">
+              <a href="./html/oil.html">Все автомасла</a>
+              <img src="./img/icons/Arrow3.svg" alt="#" />
+            </div>
+          </div>
+          <div class="oil-items">
+            <div class="promo-img">
+              <img src="./img/promo/promo_oil.jpg" alt="#"/>
+              <p>Автомасла №1 от официальных дилеров</p>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <img src="./img/catalog_oil/oil_02.png" alt="#" class="image"/>
+              </div>
+              <div class="article-mark">
+                <div class="article">
+                  <p>Артикул: <span>16779</span></p>
+                </div>
+                <div class="mark">
+                  <div class="img">
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full2.svg" alt="#" />
+                  </div>
+                  <p>4.0 <span>(35)</span></p>
+                </div>
+              </div>
+              <div class="item-title">
+                <h3>Sintec X3 9W-30, 2 л. Масло моторное.</h3>
+              </div>
+              <div class="price-cart">
+                <div class="price">
+                  <p class="new">78 BYN</p>
+                  <p class="old">86 BYN</p>
+                </div>
+                <button class="cart">
+                  <img src="./img/icons/Cart3.svg" alt="#" />
+                </button>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <img src="./img/catalog_oil/image 18.png" alt="#" class="image"/>
+              </div>
+              <div class="article-mark">
+                <div class="article">
+                  <p>Артикул: <span>173883</span></p>
+                </div>
+                <div class="mark">
+                  <div class="img">
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                  </div>
+                  <p>5.0 <span>(51)</span></p>
+                </div>
+              </div>
+              <div class="item-title">
+                <h3>Mobil SUPER 7000 X3 8W-60, 1 л. Масло моторное.</h3>
+              </div>
+              <div class="price-cart">
+                <div class="price">
+                  <p class="new">65 BYN</p>
+                  <p class="old">84 BYN</p>
+                </div>
+                <button class="cart">
+                  <img src="./img/icons/Cart3.svg" alt="#" />
+                </button>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item-img">
+                <img src="./img/catalog_oil/oil_01.jpg" alt="#" class="image"/>
+              </div>
+              <div class="article-mark">
+                <div class="article">
+                  <p>Артикул: <span>153873</span></p>
+                </div>
+                <div class="mark">
+                  <div class="img">
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full.svg" alt="#" />
+                    <img src="./img/icons/rate-full2.svg" alt="#" />
+                  </div>
+                  <p>4.0 <span>(59)</span></p>
+                </div>
+              </div>
+              <div class="item-title">
+                <h3>Areol SUPER 3960 X1 5W-60, 1 л. Масло моторное.</h3>
+              </div>
+              <div class="price-cart">
+                <div class="price">
+                  <p class="new">28 BYN</p>
+                  <p class="old">37 BYN</p>
+                </div>
+                <button class="cart">
+                  <img src="./img/icons/Cart3.svg" alt="#" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="banners">
+      <div class="container">
+        <div class="banners-wrap">
+          <div class="banner">
+            <img src="./img/promo/promo_1.jpg" alt="#" />
+            <div class="descr">
+              <p>Моторные масла Genesis</p>
+              <a href="#">
+                <span>Перейти</span>
+                <img src="./img/icons/Arrow4.svg"></a>
+            </div>
+          </div>
+          <div class="banner">
+            <img src="./img/promo/promo_2.jpg" alt="#" />
+            <div class="descr">
+              <p>Шины зимние дешевле</p>
+              <a href="#">
+                <span>Перейти</span>
+                <img src="./img/icons/Arrow4.svg"></a>
+            </div>
+          </div>
+          <div class="banner">
+            <img src="./img/promo/promo_3.jpg" alt="#" />
+            <div class="descr">
+              <p>Запчасти для <br/>ТО</p>
+              <a href="#">
+                <span>Перейти</span>
+                <img src="./img/icons/Arrow4.svg"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="recommend">
+      <div class="container">
+        <h2>Рекомендуем</h2>
+        <div class="recommend-wrap">
+          <div class="item">
+            <div class="item-img">
+              <img src="./img/promo/image 18.png" alt="#" class="image"/>
+            </div>
+            <div class="article-mark">
+              <div class="article">
+                <p>Артикул: <span>153873</span></p>
+              </div>
+              <div class="mark">
+                <div class="img">
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full2.svg" alt="#" />
+                </div>
+                <p>4.0 <span>(16)</span></p>
+              </div>
+            </div>
+            <div class="item-title">
+              <h3>Mobil SUPER 3960 X1 5W-60, 1 л. Масло моторное.</h3>
+            </div>
+            <div class="price-cart">
+              <div class="price">
+                <p class="new">12 BYN</p>
+                <p class="old">29 BYN</p>
+              </div>
+              <button class="cart">
+                <img src="./img/icons/Cart3.svg" alt="#" />
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img src="./img/promo/image 79.png" alt="#" class="image"/>
+            </div>
+            <div class="article-mark">
+              <div class="article">
+                <p>Артикул: <span>153612</span></p>
+              </div>
+              <div class="mark">
+                <div class="img">
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                </div>
+                <p>5.0 <span>(10)</span></p>
+              </div>
+            </div>
+            <div class="item-title">
+              <h3>MEUROREPAR 1631780, Тормозные колодки</h3>
+            </div>
+            <div class="price-cart">
+              <div class="price">
+                <p class="new">17 BYN</p>
+                <p class="old">35 BYN</p>
+              </div>
+              <button class="cart">
+                <img src="./img/icons/Cart3.svg" alt="#" />
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img src="./img/promo/image 81.png" alt="#" class="image"/>
+            </div>
+            <div class="article-mark">
+              <div class="article">
+                <p>Артикул: <span>196357</span></p>
+              </div>
+              <div class="mark">
+                <div class="img">
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full2.svg" alt="#" />
+                </div>
+                <p>4.0 <span>(15)</span></p>
+              </div>
+            </div>
+            <div class="item-title">
+              <h3>PATRON PBP653, Тормозные колодки</h3>
+            </div>
+            <div class="price-cart">
+              <div class="price">
+                <p class="new">28 BYN</p>
+                <p class="old">36 BYN</p>
+              </div>
+              <button class="cart">
+                <img src="./img/icons/Cart3.svg" alt="#" />
+              </button>
+            </div>
+          </div>
+          <div class="item">
+            <div class="item-img">
+              <img src="./img/promo/image 80.png" alt="#" class="image"/>
+            </div>
+            <div class="article-mark">
+              <div class="article">
+                <p>Артикул: <span>265878</span></p>
+              </div>
+              <div class="mark">
+                <div class="img">
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full.svg" alt="#" />
+                  <img src="./img/icons/rate-full2.svg" alt="#" />
+                  <img src="./img/icons/rate-full2.svg" alt="#" />
+                </div>
+                <p>3.0 <span>(42)</span></p>
+              </div>
+            </div>
+            <div class="item-title">
+              <h3>Grelander Icewke I 185/6R15 88T, Автомобильные шины </h3>
+            </div>
+            <div class="price-cart">
+              <div class="price">
+                <p class="new">115 BYN</p>
+                <p class="old">122 BYN</p>
+              </div>
+              <button class="cart">
+                <img src="./img/icons/Cart3.svg" alt="#" />
+              </button>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-nav">
+      <div class="container">
+        <div class="nav-wrap">
+          <ul><h3>Меню компании</h3>
+            <li>Что такое Oner</li>
+            <li>Реквизиты и информация</li>
+            <li>Новости</li>
+            <li>Вакансии</li>
+            <li>Контакты</li>
+          </ul>
+          <ul><h3>Каталоги</h3>
+            <li>Оригинальные запчасти</li>
+            <li>Неоригинальные запчасти</li>
+            <li>Запчасти для ТО</li>
+            <li>Автомасла</li>
+            <li>Аккумуляторы</li>
+            <li>Распродажа</li>
+          </ul>
+          <ul><h3>Помощь</h3>
+            <li>Часто задаваемые вопросы</li>
+            <li>Консультация Online</li>
+            <li>Оплата заказа</li>
+            <li>Доставка заказа</li>
+            <li>Возврат товара</li>
+          </ul>
+          <ul><h3>Товары и бренды</h3>
+            <li>Список брендов</li>
+            <li>Популярные товары</li>
+            <li>Наличие на складах</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrap">
+          <p>Copyright © ООО «Oner.by» 2023. All rights reserved.</p>
+          <div class="icons">
+            <p>Принимаем к оплате</p>
+            <div class="images">
+              <div class="img"><img src="./img/icons/mastercard.svg" alt="#"></div>
+              <div class="img"><img src="./img/icons/visa.svg" alt="#"></div>
+              <div class="img"><img src="./img/icons/mir.svg" alt="#">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>

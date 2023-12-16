@@ -1,0 +1,40 @@
+@import url(./fonts.scss);
+@import url(./header.scss);
+@import url(./promo.scss);
+@import url(./categories.scss);
+@import url(./oil.scss);
+@import url(./banners.scss);
+@import url(./recommend.scss);
+@import url(./footer-nav.scss);
+@import url(./footer.scss);
+@import url(./catalog.scss);
+@import url(./cart.scss);
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    background: #F8F8FA;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.overlay{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.482);
+    z-index: 1;
+  }
